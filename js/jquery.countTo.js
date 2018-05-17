@@ -58,6 +58,8 @@
 
   CountTo.prototype.update = function () {
     this.value += this.increment;
+    if(this.value > this.options.to)
+        this.value = this.options.to;
     this.loopCount++;
 
     this.render();
