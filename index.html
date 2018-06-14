@@ -1,397 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<title>ServerSide_SP</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>ServerSide_SP</title>
 
-	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
 
-	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
-	<!-- Owl Carousel -->
-	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
-	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+    <!-- Owl Carousel -->
+    <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 
-	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
 			  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 			<![endif]-->
 </head>
+
 <body>
 
-	<!-- Header -->
-	<header id="header" class="transparent-navbar">
-		<!-- container -->
-		<div class="container">
-			<!-- navbar header -->
-			<div class="navbar-header">
-				<!-- Logo -->
-				<div class="navbar-brand">
-					<a class="logo" href="index.html">
+    <!-- Header -->
+    <header id="header" class="transparent-navbar">
+        <!-- container -->
+        <div class="container">
+            <!-- navbar header -->
+            <div class="navbar-header">
+                <!-- Logo -->
+                <div class="navbar-brand">
+                    <a class="logo" href="index.html">
 						<img class="logo-img" src="./img/logo_Original_png.png" alt="logo" style="margin-top: -5px; max-height: 60px;">
 						<img class="logo-alt-img" src="./img/logo_White_png.png" alt="logo" style="margin-top: -5px; max-height: 60px;">
 					</a>
-				</div>
-				<!-- /Logo -->
+                </div>
+                <!-- /Logo -->
 
-				<!-- Mobile toggle -->
-				<button class="navbar-toggle">
+                <!-- Mobile toggle -->
+                <button class="navbar-toggle">
 						<i class="fa fa-bars"></i>
 					</button>
-				<!-- /Mobile toggle -->
-			</div>
-			<!-- /navbar header -->
+                <!-- /Mobile toggle -->
+            </div>
+            <!-- /navbar header -->
 
-			<!-- Navigation -->
-			<nav id="nav">
-				<ul class="main-nav nav navbar-nav navbar-right">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">Sobre</a></li>
-					<li><a href="#schedule">Agenda</a></li>
-					<li><a href="#speakers">Palestrantes</a></li>
-					<li><a href="#sponsors">Patrocinadores</a></li>
-					<li><a href="#contact">Local</a></li>
-				</ul>
-			</nav>
-			<!-- /Navigation -->
-		</div>
-		<!-- /container -->
-	</header>
-	<!-- /Header -->
+            <!-- Navigation -->
+            <nav id="nav">
+                <ul class="main-nav nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#schedule">Agenda</a></li>
+                    <li><a href="#speakers">Palestrantes</a></li>
+                    <li><a href="#sponsors">Patrocinadores</a></li>
+                    <li><a href="#contact">Local</a></li>
+                </ul>
+            </nav>
+            <!-- /Navigation -->
+        </div>
+        <!-- /container -->
+    </header>
+    <!-- /Header -->
 
-	<!-- Home -->
-	<div id="home">
-		<!-- background image -->
-		<div class="section-bg" style="background-image:url(./img/background01.jpg)" data-stellar-background-ratio="0.5"></div>
-		<!-- /background image -->
+    <!-- Home -->
+    <div id="home">
+        <!-- background image -->
+        <div class="section-bg" style="background-image:url(./img/background01.jpg)" data-stellar-background-ratio="0.5"></div>
+        <!-- /background image -->
 
-		<!-- home wrapper -->
-		<div class="home-wrapper">
-			<!-- container -->
-			<div class="container">
-				<!-- row -->
-				<div class="row">
-					<!-- home content -->
-					<div class="col-md-8 col-md-offset-2">
-						<div class="home-content">
-							<h1 class="text-center">
-								<img src="./img/logo_White_png.png" alt="ServerSide_SP" title="ServerSide_SP" style="width: 400px; max-width: 100%;">
-							</h1>
-							<h4 class="lead">Um evento focado em arquitetura, escalabilidade e disponibilidade</h4>
-							<a href="https://www.sympla.com.br/serverside-sp__291914" target="_blank" class="main-btn">Garanta sua vaga</a>
-						</div>
-					</div>
-					<!-- /home content -->
-				</div>
-				<!-- /row -->
-			</div>
-			<!-- /container -->
-		</div>
-		<!-- /home wrapper -->
-	</div>
-	<!-- /Home -->
+        <!-- home wrapper -->
+        <div class="home-wrapper">
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <!-- home content -->
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="home-content">
+                            <h1 class="text-center">
+                                <img src="./img/logo_White_png.png" alt="ServerSide_SP" title="ServerSide_SP" style="width: 400px; max-width: 100%;">
+                            </h1>
+                            <h4 class="lead">Um evento focado em arquitetura, escalabilidade e disponibilidade</h4>
+                            <a href="https://www.sympla.com.br/serverside-sp__291914" target="_blank" class="main-btn">Garanta sua vaga</a>
+                        </div>
+                    </div>
+                    <!-- /home content -->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /home wrapper -->
+    </div>
+    <!-- /Home -->
 
-	<!-- About -->
-	<div id="about" class="section">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<!-- section title -->
-				<div class="section-title">
-					<h3 class="title"><span>Sobre o</span> <span style="color: #dd0a37;">Evento</span></h3>
-				</div>
-				<!-- /section title -->
+    <!-- About -->
+    <div id="about" class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- section title -->
+                <div class="section-title">
+                    <h3 class="title"><span>Sobre o</span> <span style="color: #dd0a37;">Evento</span></h3>
+                </div>
+                <!-- /section title -->
 
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<!-- about content -->
-					<div class="about-content">
-						<p>Reunimos palestrantes com grande conhecimento e experiência para que você entenda os princípios básicos e avançados sobre arquitetura, disponibilidade e escalabilidade de aplicações distribuídas modernas. Nosso intuito é ajudar a comunidade de pessoas desenvolvedoras a prosperar no complexo mundo dos sistemas, através de palestras de nossa curadoria e de um ambiente agradável de troca de conhecimento para todas e todos.</p>
-					</div>
-					<!-- /about content -->
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <!-- about content -->
+                    <div class="about-content">
+                        <p>Reunimos palestrantes com grande conhecimento e experiência para que você entenda os princípios básicos e avançados sobre arquitetura, disponibilidade e escalabilidade de aplicações distribuídas modernas. Nosso intuito é ajudar a comunidade de pessoas desenvolvedoras a prosperar no complexo mundo dos sistemas, através de palestras de nossa curadoria e de um ambiente agradável de troca de conhecimento para todas e todos.</p>
+                    </div>
+                    <!-- /about content -->
 
-					<!-- Numbers -->
-					<div id="numbers">
-						<!-- row -->
-						<div class="row">
-							<!-- number -->
-							<div class="col-md-4 col-sm-3 col-xs-6">
-								<div class="number">
-									<h3><span class="counter" data-from="0" data-to="4" data-speed="1500">0</span></h3>
-									<p>Palestrantes</p>
-								</div>
-							</div>
-							<!-- /number -->
+                    <!-- Numbers -->
+                    <div id="numbers">
+                        <!-- row -->
+                        <div class="row">
+                            <!-- number -->
+                            <div class="col-md-4 col-sm-3 col-xs-6">
+                                <div class="number">
+                                    <h3><span class="counter" data-from="0" data-to="4" data-speed="1500">0</span></h3>
+                                    <p>Palestrantes</p>
+                                </div>
+                            </div>
+                            <!-- /number -->
 
-							<!-- number -->
-							<div class="col-md-4 col-sm-3 col-xs-6">
-								<div class="number">
-									<h3><span class="counter" data-from="0" data-to="30" data-speed="1500">0</span></h3>
-									<p>Minutos abertos para lightning talks</p>
-								</div>
-							</div>
-							<!-- /number -->
+                            <!-- number -->
+                            <div class="col-md-4 col-sm-3 col-xs-6">
+                                <div class="number">
+                                    <h3><span class="counter" data-from="0" data-to="30" data-speed="1500">0</span></h3>
+                                    <p>Minutos abertos para lightning talks</p>
+                                </div>
+                            </div>
+                            <!-- /number -->
 
-							<!-- number -->
-							<div class="col-md-4 col-sm-3 col-xs-6">
-								<div class="number">
-									<h3><span class="counter" data-from="0" data-to="80" data-speed="1500">80</span></h3>
-									<p>Vagas</p>
-								</div>
-							</div>
-							<!-- /number -->
-						</div>
-						<!-- /row -->
-					</div>
-					<!-- /Numbers -->
-				</div>
-			</div>
-			<!-- row -->
-		</div>
-		<!-- /container -->
-	</div>
-	<!-- /About -->
+                            <!-- number -->
+                            <div class="col-md-4 col-sm-3 col-xs-6">
+                                <div class="number">
+                                    <h3><span class="counter" data-from="0" data-to="80" data-speed="1500">80</span></h3>
+                                    <p>Vagas</p>
+                                </div>
+                            </div>
+                            <!-- /number -->
+                        </div>
+                        <!-- /row -->
+                    </div>
+                    <!-- /Numbers -->
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /About -->
 
-	<!-- Galery -->
-	<div id="galery">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<!-- galery owl -->
-				<div id="galery-owl" class="owl-carousel owl-theme">
-					<!-- galery item -->
-					<div class="galery-item">
-						<img src="./img/campus_sao_paulo.png" alt="">
-					</div>
-					<!-- /galery item -->
+    <!-- Galery -->
+    <div id="galery">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- galery owl -->
+                <div id="galery-owl" class="owl-carousel owl-theme">
+                    <!-- galery item -->
+                    <div class="galery-item">
+                        <img src="./img/campus_sao_paulo.png" alt="">
+                    </div>
+                    <!-- /galery item -->
 
-					<!-- galery item -->
-					<div class="galery-item">
-						<img src="./img/campus_sao_paulo_1.jpg" alt="">
-					</div>
-					<!-- /galery item -->
+                    <!-- galery item -->
+                    <div class="galery-item">
+                        <img src="./img/campus_sao_paulo_1.jpg" alt="">
+                    </div>
+                    <!-- /galery item -->
 
-					<!-- galery item -->
-					<div class="galery-item">
-						<img src="./img/campus_sao_paulo_2.jpeg" alt="">
-					</div>
-					<!-- /galery item -->
+                    <!-- galery item -->
+                    <div class="galery-item">
+                        <img src="./img/campus_sao_paulo_2.jpeg" alt="">
+                    </div>
+                    <!-- /galery item -->
 
-					<!-- galery item -->
-					<div class="galery-item">
-						<img src="./img/campus_sao_paulo_3.jpg" alt="">
-					</div>
-					<!-- /galery item -->
+                    <!-- galery item -->
+                    <div class="galery-item">
+                        <img src="./img/campus_sao_paulo_3.jpg" alt="">
+                    </div>
+                    <!-- /galery item -->
 
-				</div>
-				<!-- /galery owl -->
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</div>
-	<!-- /Galery -->
+                </div>
+                <!-- /galery owl -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /Galery -->
 
-	<!-- Event Schedule -->
-	<div id="schedule" class="section">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<!-- section title -->
-				<div class="section-title">
-					<h3 class="title"><span>Nossa</span> <span style="color: #dd0a37;">Agenda</span></h3>
-				</div>
-				<!-- /section title -->
+    <!-- Event Schedule -->
+    <div id="schedule" class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- section title -->
+                <div class="section-title">
+                    <h3 class="title"><span>Nossa</span> <span style="color: #dd0a37;">Agenda</span></h3>
+                </div>
+                <!-- /section title -->
 
-				<div class="col-md-8 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2">
 
-					<div class="events-wrapper">
-						<!-- event -->
-						<div class="event">
-							<div class="event-day">
-								<div>
-									<span class="day">4</span>
-									<span class="year">Julho, 2018</span>
-								</div>
-							</div>
-							<div class="event-content">
-								<p class="event-time"><i class="fa fa-clock-o"></i> 19 : 00 - 19 : 10 </p>
-								<h3 class="event-title">Abertura e apresentação dos palestrantes</h3>
-								<p>Aqui vamos te contar o que vai rolar e quem são os responsáveis por fazer o evento acontecer.</p>
-								<p>Por <a href="#">Convidados especiais</a></p>
-							</div>
-						</div>
-						<!-- /event -->
+                    <div class="events-wrapper">
+                        <!-- event -->
+                        <div class="event">
+                            <div class="event-day">
+                                <div>
+                                    <span class="day">4</span>
+                                    <span class="year">Julho, 2018</span>
+                                </div>
+                            </div>
+                            <div class="event-content">
+                                <p class="event-time"><i class="fa fa-clock-o"></i> 19 : 00 - 19 : 10 </p>
+                                <h3 class="event-title">Abertura e apresentação dos palestrantes</h3>
+                                <p>Aqui vamos te contar o que vai rolar e quem são os responsáveis por fazer o evento acontecer.</p>
+                                <p>Por <a href="#">Convidados especiais</a></p>
+                            </div>
+                        </div>
+                        <!-- /event -->
 
-						<!-- event -->
-						<div class="event">
-							<div class="event-hour"></div>
-							<div class="event-content">
-								<p class="event-time"><i class="fa fa-clock-o"></i> 19 : 10 - 19 : 40 </p>
-								<h3 class="event-title">Aplicações flexiveis e realtime com GraphQL</h3>
-								<p>Nossa primeira palestra.</p>
-								<p>Por <a href="#ana-bastos">Ana Bastos</a></p>
-							</div>
-						</div>
-						<!-- /event -->
+                        <!-- event -->
+                        <div class="event">
+                            <div class="event-hour"></div>
+                            <div class="event-content">
+                                <p class="event-time"><i class="fa fa-clock-o"></i> 19 : 10 - 19 : 40 </p>
+                                <h3 class="event-title">Aplicações flexiveis e realtime com GraphQL</h3>
+                                <p>Nossa primeira palestra.</p>
+                                <p>Por <a href="#ana-bastos">Ana Bastos</a></p>
+                            </div>
+                        </div>
+                        <!-- /event -->
 
-						<!-- event -->
-						<div class="event">
-							<div class="event-hour"></div>
-							<div class="event-content">
-								<p class="event-time"><i class="fa fa-clock-o"></i> 19 : 40 - 20 : 10 </p>
-								<h3 class="event-title">12-factor apps: Boas práticas na construção de serviços</h3>
-								<p>Nossa segunda palestra.</p>
-								<p>Por <a href="#grazi-bonizi">Grazi Bonizi</a></p>
-							</div>
-						</div>
-						<!-- /event -->
+                        <!-- event -->
+                        <div class="event">
+                            <div class="event-hour"></div>
+                            <div class="event-content">
+                                <p class="event-time"><i class="fa fa-clock-o"></i> 19 : 40 - 20 : 10 </p>
+                                <h3 class="event-title">12-factor apps: Boas práticas na construção de serviços</h3>
+                                <p>Nossa segunda palestra.</p>
+                                <p>Por <a href="#grazi-bonizi">Grazi Bonizi</a></p>
+                            </div>
+                        </div>
+                        <!-- /event -->
 
-						<!-- event -->
-						<div class="event">
-							<div class="event-hour"></div>
-							<div class="event-content">
-								<p class="event-time"><i class="fa fa-clock-o"></i> 20 : 10 - 20 : 30 </p>
-								<h3 class="event-title">Intervalo</h3>
-								<p>Bora conversar, tomar umas cervejas e trocar muitas ideias do que está por vir!</p>
-							</div>
-						</div>
-						<!-- /event -->
+                        <!-- event -->
+                        <div class="event">
+                            <div class="event-hour"></div>
+                            <div class="event-content">
+                                <p class="event-time"><i class="fa fa-clock-o"></i> 20 : 10 - 20 : 30 </p>
+                                <h3 class="event-title">Intervalo</h3>
+                                <p>Bora conversar, tomar umas cervejas e trocar muitas ideias do que está por vir!</p>
+                            </div>
+                        </div>
+                        <!-- /event -->
 
-						<!-- event -->
-						<div class="event">
-							<div class="event-hour"></div>
-							<div class="event-content">
-								<p class="event-time"><i class="fa fa-clock-o"></i> 20 : 30 - 21 : 00 </p>
-								<h3 class="event-title">Palestra #3</h3>
-								<p>Nossa terceira palestra.</p>
-								<p>Por <a href="#">TBA</a></p>
-							</div>
-						</div>
-						<!-- /event -->
+                        <!-- event -->
+                        <div class="event">
+                            <div class="event-hour"></div>
+                            <div class="event-content">
+                                <p class="event-time"><i class="fa fa-clock-o"></i> 20 : 40 - 21 : 10 </p>
+                                <h3 class="event-title">Kubernetes 101 - Build, deploy and fun !</h3>
+                                <p>Como o kubernetes pode lhe ajudar com sua aplicação em produção e dar os primeiros passos.</p>
+                                <p>Por <a href="#grazi-bonizi">João Brito</a></p>
+                            </div>
+                        </div>
+                        <!-- /event -->
 
-						<!-- event -->
-						<div class="event">
-							<div class="event-hour"></div>
-							<div class="event-content">
-								<p class="event-time"><i class="fa fa-clock-o"></i> 21 : 00 - 21 : 30 </p>
-								<h3 class="event-title">Palestra #4</h3>
-								<p>Nossa quarta palestra.</p>
-								<p>Por <a href="#">TBA</a></p>
-							</div>
-						</div>
-						<!-- /event -->
+                        <!-- event -->
+                        <div class="event">
+                            <div class="event-hour"></div>
+                            <div class="event-content">
+                                <p class="event-time"><i class="fa fa-clock-o"></i> 21 : 00 - 21 : 30 </p>
+                                <h3 class="event-title">Palestra #4</h3>
+                                <p>Nossa quarta palestra.</p>
+                                <p>Por <a href="#">TBA</a></p>
+                            </div>
+                        </div>
+                        <!-- /event -->
 
-						<!-- event -->
-						<div class="event">
-							<div class="event-hour"></div>
-							<div class="event-content">
-								<p class="event-time"><i class="fa fa-clock-o"></i> 21 : 30 - 22 : 00 </p>
-								<h3 class="event-title">Lighting Talks</h3>
-								<p>Tem uma palestra rápida por aí? Quer dividir alguma experiência com o pessoal? É só subir no palco e dar o show!</p>
-							</div>
-						</div>
-						<!-- /event -->
-					</div>
+                        <!-- event -->
+                        <div class="event">
+                            <div class="event-hour"></div>
+                            <div class="event-content">
+                                <p class="event-time"><i class="fa fa-clock-o"></i> 21 : 30 - 22 : 00 </p>
+                                <h3 class="event-title">Lighting Talks</h3>
+                                <p>Tem uma palestra rápida por aí? Quer dividir alguma experiência com o pessoal? É só subir no palco e dar o show!</p>
+                            </div>
+                        </div>
+                        <!-- /event -->
+                    </div>
 
-				</div>
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</div>
-	<!-- /Event Schedule -->
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /Event Schedule -->
 
-	<!-- Speakers -->
-	<div id="speakers" class="section">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<!-- section title -->
-				<div class="section-title">
-					<h3 class="title"><span>Nossos</span> <span style="color: #dd0a37;">Palestrantes</span></h3>
-				</div>
-				<!-- section title -->
+    <!-- Speakers -->
+    <div id="speakers" class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- section title -->
+                <div class="section-title">
+                    <h3 class="title"><span>Nossos</span> <span style="color: #dd0a37;">Palestrantes</span></h3>
+                </div>
+                <!-- section title -->
 
-				<!-- speaker -->
-				<div class="col-md-4 col-sm-6" id="ana-bastos">
-					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
-						<div class="speaker-img">
-							<img src="./img/speakers/ana_bastos.jpg" alt="">
-						</div>
-						<div class="speaker-body">
-							<!--<div class="speaker-social">-->
-								<!--<a href="#"><i class="fa fa-facebook"></i></a>-->
-								<!--<a href="#"><i class="fa fa-twitter"></i></a>-->
-								<!--<a href="#"><i class="fa fa-instagram"></i></a>-->
-								<!--<a href="#"><i class="fa fa-linkedin"></i></a>-->
-							<!--</div>-->
-							<div class="speaker-content">
-								<h2>Ana Bastos</h2>
-								<span>Fullstack developer, JSLadies</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /speaker -->
+                <!-- speaker -->
+                <div class="col-md-4 col-sm-6" id="ana-bastos">
+                    <div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+                        <div class="speaker-img">
+                            <img src="./img/speakers/ana_bastos.jpg" alt="">
+                        </div>
+                        <div class="speaker-body">
+                            <!--<div class="speaker-social">-->
+                            <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                            <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                            <!--<a href="#"><i class="fa fa-instagram"></i></a>-->
+                            <!--<a href="#"><i class="fa fa-linkedin"></i></a>-->
+                            <!--</div>-->
+                            <div class="speaker-content">
+                                <h2>Ana Bastos</h2>
+                                <span>Fullstack developer, JSLadies</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /speaker -->
 
-				<!-- speaker -->
-				<div class="col-md-4 col-sm-6"  id="grazi-bonizi">
-					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-2">
-						<div class="speaker-img">
-							<img src="./img/speakers/grazi_bonizi.png" alt="">
-						</div>
-						<div class="speaker-body">
-							<div class="speaker-social">
-								<!--<a href="#"><i class="fa fa-facebook"></i></a>-->
-								<!--<a href="#"><i class="fa fa-twitter"></i></a>-->
-								<!--<a href="#"><i class="fa fa-instagram"></i></a>-->
-								<!--<a href="#"><i class="fa fa-linkedin"></i></a>-->
-							</div>
-							<div class="speaker-content">
-								<h2>Grazi Bonizi</h2>
-								<span>Consultora DevOps na Lambda3</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /speaker -->
+                <!-- speaker -->
+                <div class="col-md-4 col-sm-6" id="grazi-bonizi">
+                    <div class="speaker" data-toggle="modal" data-target="#speaker-modal-2">
+                        <div class="speaker-img">
+                            <img src="./img/speakers/grazi_bonizi.png" alt="">
+                        </div>
+                        <div class="speaker-body">
+                            <div class="speaker-social">
+                                <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                <!--<a href="#"><i class="fa fa-instagram"></i></a>-->
+                                <!--<a href="#"><i class="fa fa-linkedin"></i></a>-->
+                            </div>
+                            <div class="speaker-content">
+                                <h2>Grazi Bonizi</h2>
+                                <span>Consultora DevOps na Lambda3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /speaker -->
 
-				<!-- speaker -->
-				<!-- <div class="col-md-4 col-sm-6">
+
+                <!-- speaker -->
+                <div class="col-md-4 col-sm-6" id="joao_brito">
+                    <div class="speaker" data-toggle="modal" data-target="#speaker-modal-3">
+                        <div class="speaker-img">
+                            <img src="./img/speakers/joao_brito.png" alt="">
+                        </div>
+                        <div class="speaker-body">
+                            <div class="speaker-social">
+                                <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                                <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                                <!--<a href="#"><i class="fa fa-instagram"></i></a>-->
+                                <!--<a href="#"><i class="fa fa-linkedin"></i></a>-->
+                            </div>
+                            <div class="speaker-content">
+                                <h2>João Brito</h2>
+                                <span>Sysadmin/Advocate na GetupCloud</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /speaker -->
+
+                <!-- speaker -->
+                <!-- <div class="col-md-4 col-sm-6">
 					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
 						<div class="speaker-img">
 							<img src="./img/speaker03.jpg" alt="">
@@ -410,327 +435,372 @@
 						</div>
 					</div>
 				</div> -->
-				<!-- /speaker -->
+                <!-- /speaker -->
 
-				<!-- speaker modal -->
-				<div id="speaker-modal-1" class="speaker-modal modal fade">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
-							<div class="modal-body">
-								<div class="row">
-									<div class="col-md-5">
-										<div class="speaker-modal-img">
-											<img src="./img/speakers/ana_bastos.jpg" alt="">
-										</div>
-									</div>
-									<div class="col-md-7">
-										<div class="speaker-modal-content">
-											<h2 class="speaker-name">Ana Bastos</h2>
-											<span class="speaker-job">- Fullstack developer, JSLadies</span>
+                <!-- speaker modal -->
+                <div id="speaker-modal-1" class="speaker-modal modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="speaker-modal-img">
+                                            <img src="./img/speakers/ana_bastos.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="speaker-modal-content">
+                                            <h2 class="speaker-name">Ana Bastos</h2>
+                                            <span class="speaker-job">- Fullstack developer, JSLadies</span>
 
-											<p>Cientista da computação pela PUC-SP, Fullstack developer, organizadora do <a href="http://jsladies.org" rel="nofollow noopener"  target="_blank">JSLadies</a> e do <a href="https://www.meetup.com/pt-BR/Lambda-I-O-Sampa-Meetup/" rel="nofollow noopener" target="_blank">Lambda.io</a>, entusiasta de programação funcional e palestrante nas horas vagas.</p>
+                                            <p>Cientista da computação pela PUC-SP, Fullstack developer, organizadora do <a href="http://jsladies.org" rel="nofollow noopener" target="_blank">JSLadies</a> e do <a href="https://www.meetup.com/pt-BR/Lambda-I-O-Sampa-Meetup/" rel="nofollow noopener" target="_blank">Lambda.io</a>, entusiasta de programação funcional e palestrante nas horas vagas.</p>
 
-											<div class="speaker-website">
-												<h4>Website</h4>
-												<a href="http://jsladies.org"  target="_blank" rel="nofollow noopener">http://jsladies.org</a>
-											</div>
+                                            <div class="speaker-website">
+                                                <h4>Website</h4>
+                                                <a href="http://jsladies.org" target="_blank" rel="nofollow noopener">http://jsladies.org</a>
+                                            </div>
 
-											<div class="speaker-social">
-												<h4>Redes Sociais</h4>
-												<a href="https://github.com/anabastos" target="_blank"><i class="fa fa-github"></i></a>
-												<a href="https://twitter.com/naluhh" target="_blank"><i class="fa fa-twitter"></i></a>
-												<a href="https://www.meetup.com/members/207120200" target="_blank"><i class="fa fa-meetup"></i></a>
-											</div>
+                                            <div class="speaker-social">
+                                                <h4>Redes Sociais</h4>
+                                                <a href="https://github.com/anabastos" target="_blank"><i class="fa fa-github"></i></a>
+                                                <a href="https://twitter.com/naluhh" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                <a href="https://www.meetup.com/members/207120200" target="_blank"><i class="fa fa-meetup"></i></a>
+                                            </div>
 
-											<div class="speaker-events">
-												<h4>Palestra</h4>
-												<div class="speaker-event">
-													<span><strong>06 de julho</strong>, 2018 19 : 10 - 19 : 40</span>
-													<p><strong>Aplicações flexiveis e realtime com GraphQL</strong></p>
-													<p>Como e porque usar uma linguagem de consulta de dados como o GraphQL para desenvolver APIs podendo substituir o padrão REST com sua flexibilidade e escalabilidade.</p>
-												</div>
-											</div>
+                                            <div class="speaker-events">
+                                                <h4>Palestra</h4>
+                                                <div class="speaker-event">
+                                                    <span><strong>06 de julho</strong>, 2018 19 : 10 - 19 : 40</span>
+                                                    <p><strong>Aplicações flexiveis e realtime com GraphQL</strong></p>
+                                                    <p>Como e porque usar uma linguagem de consulta de dados como o GraphQL para desenvolver APIs podendo substituir o padrão REST com sua flexibilidade e escalabilidade.</p>
+                                                </div>
+                                            </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /speaker modal -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /speaker modal -->
 
-				<!-- speaker modal -->
-				<div id="speaker-modal-2" class="speaker-modal modal fade">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
-							<div class="modal-body">
-								<div class="row">
-									<div class="col-md-5">
-										<div class="speaker-modal-img">
-											<img src="./img/speakers/grazi_bonizi.png" alt="">
-										</div>
-									</div>
-									<div class="col-md-7">
-										<div class="speaker-modal-content">
-											<h2 class="speaker-name">Grazi Bonizi</h2>
-											<span class="speaker-job">-  Consultora DevOps na Lambda3</span>
+                <!-- speaker modal -->
+                <div id="speaker-modal-2" class="speaker-modal modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="speaker-modal-img">
+                                            <img src="./img/speakers/grazi_bonizi.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="speaker-modal-content">
+                                            <h2 class="speaker-name">Grazi Bonizi</h2>
+                                            <span class="speaker-job">-  Consultora DevOps na Lambda3</span>
 
-											<p>Graziella Bonizi é consultora DevOps na Lambda3.</p>
-											<p>Coordenadora da trilha de Arquitetura .Net no The Developers Conference, compartilha código no <a href="https://github.com/grazibonizi" target="_blank">GitHub</a> e escreve no <a href="https://medium.com/@grazibonizi" target="_blank">Medium</a> em sobre ALM, DDD, Git...</p>
+                                            <p>Graziella Bonizi é consultora DevOps na Lambda3.</p>
+                                            <p>Coordenadora da trilha de Arquitetura .Net no The Developers Conference, compartilha código no <a href="https://github.com/grazibonizi" target="_blank">GitHub</a> e escreve no <a href="https://medium.com/@grazibonizi" target="_blank">Medium</a> em sobre ALM, DDD, Git...</p>
 
-											<div class="speaker-social">
-												<h4>Redes Sociais</h4>
-												<a href="https://github.com/grazibonizi" target="_blank"><i class="fa fa-github"></i></a>
-												<a href="https://medium.com/@grazibonizi" target="_blank"><i class="fa fa-medium"></i></a>
-												<a href="https://www.linkedin.com/in/graziella-bonizi-b14835a0" target="_blank"><i class="fa fa-linkedin"></i></a>
-											</div>
+                                            <div class="speaker-social">
+                                                <h4>Redes Sociais</h4>
+                                                <a href="https://github.com/grazibonizi" target="_blank"><i class="fa fa-github"></i></a>
+                                                <a href="https://medium.com/@grazibonizi" target="_blank"><i class="fa fa-medium"></i></a>
+                                                <a href="https://www.linkedin.com/in/graziella-bonizi-b14835a0" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                            </div>
 
-											<div class="speaker-events">
-												<h4>Palestra</h4>
-												<div class="speaker-event">
-													<span><strong>06 de julho</strong>, 2018 19 : 40 - 20 : 10</span>
-													<p><strong>12-factor apps: Boas práticas na construção de serviços</strong></p>
-													<p>Como desenhar uma solução de serviços pronta para produção? Que decisões relacionadas à arquitetura e DevOps deveria ser tomadas no início do projeto para que seu ciclo de vida seja eficiente? Mostrarei um exemplo de aplicação utilizando .Net, Docker e Azure respeitando os princípios da metodologia de 12 fatores para construção de serviços: (1) Codebase, (2) Dependencies, (3) Config, (4) Backing services, (5) Build, release, run, (6) Processes, (7) Port binding, (8) Concurrency, (9) Disposability, (10) Dev/Prod parity, (11) Logs e (12) Admin Processes.</p>
-												</div>
-											</div>
+                                            <div class="speaker-events">
+                                                <h4>Palestra</h4>
+                                                <div class="speaker-event">
+                                                    <span><strong>06 de julho</strong>, 2018 19 : 40 - 20 : 10</span>
+                                                    <p><strong>12-factor apps: Boas práticas na construção de serviços</strong></p>
+                                                    <p>Como desenhar uma solução de serviços pronta para produção? Que decisões relacionadas à arquitetura e DevOps deveria ser tomadas no início do projeto para que seu ciclo de vida seja eficiente? Mostrarei um exemplo de aplicação utilizando .Net, Docker e Azure respeitando os princípios da metodologia de 12 fatores para construção de serviços: (1) Codebase, (2) Dependencies, (3) Config, (4) Backing services, (5) Build, release, run, (6) Processes, (7) Port binding, (8) Concurrency, (9) Disposability, (10) Dev/Prod parity, (11) Logs e (12) Admin Processes.</p>
+                                                </div>
+                                            </div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /speaker modal -->
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</div>
-	<!-- /Speakers -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /speaker modal -->
 
-	<!-- Sponsors -->
-	<div id="sponsors" class="section">
-		<!-- container -->
-		<div class="container text-center">
-			<!-- row -->
-			<div class="row">
-				<!-- section title -->
-				<div class="section-title">
-					<h3 class="title"><span>Nossos</span> <span style="color: #dd0a37;">Patrocinadores</span></h3>
-				</div>
-				<!-- /section title -->
+                <!-- speaker modal -->
+                <div id="speaker-modal-3" class="speaker-modal modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="speaker-modal-img">
+                                            <img src="./img/speakers/joao_brito.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="speaker-modal-content">
+                                            <h2 class="speaker-name">João Brito</h2>
+                                            <span class="speaker-job">-  Sysadmin/Advocate na GetupCloud</span>
 
-				<!-- sponsor -->
-				<div class="col-md-3 col-sm-4 col-xs-6 text-center">
-					<a href="https://teravoz.com.br/" class="sponsor" target="_blank">
+                                            <p>João Brito é Sysadmin/Advocate na GetupCloud.</p>
+                                            <p>Um sysadmin de formação, mas acima de tudo em formação. Passou por grandes empresas como UOL e LocaWeb, onde por mais de 6 anos trabalhou com hosting e monitoração de sistemas críticos, mas encontrou nas startups o terreno certo para crescer. Agora na Getup com Kubernetes e containers alcançou um novo patamar, integrando e entregando o que há de melhor e mais ágil, impactando colegas e o setor de TI.</p>
+
+                                            <div class="speaker-social">
+                                                <h4>Redes Sociais</h4>
+                                                <a href="https://github.com/juniorjbn" target="_blank"><i class="fa fa-github"></i></a>
+                                                <a href="https://twitter.com/juniorjbn" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                <a href="https://www.linkedin.com/in/juniorjbn/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                            </div>
+
+                                            <div class="speaker-events">
+                                                <h4>Palestra</h4>
+                                                <div class="speaker-event">
+                                                    <span><strong>06 de julho</strong>, 2018 20 : 40 - 21 : 10</span>
+                                                    <p><strong>Kubernetes 101 - Build, deploy and fun !</strong></p>
+                                                    <p>Como o kubernetes pode lhe ajudar com sua aplicação em produção e dar os primeiros passos.</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /speaker modal -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /Speakers -->
+
+    <!-- Sponsors -->
+    <div id="sponsors" class="section">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- row -->
+            <div class="row">
+                <!-- section title -->
+                <div class="section-title">
+                    <h3 class="title"><span>Nossos</span> <span style="color: #dd0a37;">Patrocinadores</span></h3>
+                </div>
+                <!-- /section title -->
+
+                <!-- sponsor -->
+                <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+                    <a href="https://teravoz.com.br/" class="sponsor" target="_blank">
 						<img src="./img/sponsors/teravoz.png" alt="Teravoz" style="width: 200px;">
 					</a>
-				</div>
-				<!-- /sponsor -->
+                </div>
+                <!-- /sponsor -->
 
-				<!-- sponsor -->
-				<div class="col-md-3 col-sm-4 col-xs-6 text-center">
-					<a href="http://somostera.com" class="sponsor" target="_blank">
+                <!-- sponsor -->
+                <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+                    <a href="http://somostera.com" class="sponsor" target="_blank">
 						<img src="./img/sponsors/tera.png" alt="Tera" style="width: 200px">
 					</a>
-				</div>
-				<!-- /sponsor -->
+                </div>
+                <!-- /sponsor -->
 
-				<!-- sponsor -->
-				<div class="col-md-3 col-sm-4 col-xs-6 text-center" style="padding-top: 15px;">
-					<a href="https://originalmy.com/" class="sponsor" target="_blank">
+                <!-- sponsor -->
+                <div class="col-md-3 col-sm-4 col-xs-6 text-center" style="padding-top: 15px;">
+                    <a href="https://originalmy.com/" class="sponsor" target="_blank">
 						<img src="./img/sponsors/originalmy.jpg" alt="Original My" style="width: 100px">
 					</a>
-				</div>
-				<!-- /sponsor -->
+                </div>
+                <!-- /sponsor -->
 
-				<!-- sponsor -->
-				<div class="col-md-3 col-sm-4 col-xs-6 text-center" style="padding-top: 35px;">
-					<a href="https://www.fhinck.com/" class="sponsor" target="_blank">
+                <!-- sponsor -->
+                <div class="col-md-3 col-sm-4 col-xs-6 text-center" style="padding-top: 35px;">
+                    <a href="https://www.fhinck.com/" class="sponsor" target="_blank">
 						<img src="./img/sponsors/fhinck.png" alt="Fhinck" style="width: 250px">
 					</a>
-				</div>
-				<!-- /sponsor -->
-			</div>
-			<!-- /row -->
+                </div>
+                <!-- /sponsor -->
+            </div>
+            <!-- /row -->
 
-			<!-- row -->
-			<div class="row">
+            <!-- row -->
+            <div class="row">
 
-				<!-- sponsor -->
-				<div class="col-md-4 col-sm-4 col-xs-6 text-center" style="padding-top: 15px;">
-					<a href="https://gupy.io/" class="sponsor" target="_blank">
+                <!-- sponsor -->
+                <div class="col-md-4 col-sm-4 col-xs-6 text-center" style="padding-top: 15px;">
+                    <a href="https://gupy.io/" class="sponsor" target="_blank">
 						<img src="./img/sponsors/gupy.png" alt="Gupy" style="width: 250px">
 					</a>
-				</div>
-				<!-- /sponsor -->
+                </div>
+                <!-- /sponsor -->
 
-				<!-- sponsor -->
-				<div class="col-md-4 col-sm-4 col-xs-6 text-center">
-					<a href="http://conferecartoes.com.br/" class="sponsor" target="_blank">
+                <!-- sponsor -->
+                <div class="col-md-4 col-sm-4 col-xs-6 text-center">
+                    <a href="http://conferecartoes.com.br/" class="sponsor" target="_blank">
 						<img src="./img/sponsors/confere.png" alt="" style="width: 250px">
 					</a>
-				</div>
-				<!-- /sponsor -->
+                </div>
+                <!-- /sponsor -->
 
-				<!-- sponsor -->
-				<div class="col-md-4 col-sm-4 col-xs-6 text-center">
-					<a href="http://skore.io/" class="sponsor" target="_blank">
+                <!-- sponsor -->
+                <div class="col-md-4 col-sm-4 col-xs-6 text-center">
+                    <a href="http://skore.io/" class="sponsor" target="_blank">
 						<img src="./img/sponsors/skore.jpg" alt="" style="width: 250px">
 					</a>
-				</div>
-				<!-- /sponsor -->
+                </div>
+                <!-- /sponsor -->
 
-				<!-- sponsor -->
-				<!-- <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+                <!-- sponsor -->
+                <!-- <div class="col-md-3 col-sm-4 col-xs-6 text-center">
 					<a href="#" class="sponsor">
 						<img src="./img/sponsor.png" alt="" style="width: 200px">
 					</a>
 				</div> -->
-				<!-- /sponsor -->
+                <!-- /sponsor -->
 
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</div>
-	<!-- /Sponsors -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /Sponsors -->
 
-	<!-- CTA -->
-	<div id="cta" class="section">
-		<!-- background image -->
-		<div class="section-bg" style="background-image:url(./img/background03.jpg)" data-stellar-background-ratio="0.5"></div>
-		<!-- /background image -->
+    <!-- CTA -->
+    <div id="cta" class="section">
+        <!-- background image -->
+        <div class="section-bg" style="background-image:url(./img/background03.jpg)" data-stellar-background-ratio="0.5"></div>
+        <!-- /background image -->
 
-		<!-- container -->
-		<div class="container">
-			<!-- container -->
-			<div class="row">
-				<!-- cta content -->
-				<div class="col-md-8 col-md-offset-2">
-					<div class="cta-content text-center">
-						<h2>Garanta Sua Vaga!</h2>
-						<p class="lead">A partir de R$ 10,00 você reserva sua cadeira e ajuda a <a href="http://jsladies.org/" target="_blank" style="color: #fff;">{ JS Ladies }</a>, uma instituição que apoia a diversidade no mundo da tecnologia.</p>
-						<a href="https://www.sympla.com.br/serverside-sp__291914" target="_blank" class="main-btn">Quero minha vaga</a>
-					</div>
-				</div>
-				<!-- /cta content -->
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</div>
-	<!-- /CTA -->
+        <!-- container -->
+        <div class="container">
+            <!-- container -->
+            <div class="row">
+                <!-- cta content -->
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="cta-content text-center">
+                        <h2>Garanta Sua Vaga!</h2>
+                        <p class="lead">A partir de R$ 10,00 você reserva sua cadeira e ajuda a <a href="http://jsladies.org/" target="_blank" style="color: #fff;">{ JS Ladies }</a>, uma instituição que apoia a diversidade no mundo da tecnologia.</p>
+                        <a href="https://www.sympla.com.br/serverside-sp__291914" target="_blank" class="main-btn">Quero minha vaga</a>
+                    </div>
+                </div>
+                <!-- /cta content -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /CTA -->
 
-	<!-- Contact -->
-	<div id="contact" class="section">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<!-- section title -->
-				<div class="section-title">
-					<h3 class="title"><span>Informações do</span> <span style="color: #dd0a37;">Local</span></h3>
-				</div>
-				<!-- /section title -->
+    <!-- Contact -->
+    <div id="contact" class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- section title -->
+                <div class="section-title">
+                    <h3 class="title"><span>Informações do</span> <span style="color: #dd0a37;">Local</span></h3>
+                </div>
+                <!-- /section title -->
 
-				<!-- contact -->
-				<div class="col-sm-12 text-center">
-					<div class="contact">
-						<h3>Endereço</h3>
-						<p>Campus São Paulo - A Google Space<br />Rua Coronel Oscar Porto, 70 - Paraíso</p>
-					</div>
-				</div>
-				<!-- /contact -->
+                <!-- contact -->
+                <div class="col-sm-12 text-center">
+                    <div class="contact">
+                        <h3>Endereço</h3>
+                        <p>Campus São Paulo - A Google Space<br />Rua Coronel Oscar Porto, 70 - Paraíso</p>
+                    </div>
+                </div>
+                <!-- /contact -->
 
-				<!-- contact -->
-				<!-- <div class="col-sm-4">
+                <!-- contact -->
+                <!-- <div class="col-sm-4">
 					<div class="contact">
 						<h3>Phone</h3>
 						<p>570-751-2415</p>
 					</div>
 				</div> -->
-				<!-- /contact -->
+                <!-- /contact -->
 
-				<!-- contact -->
-				<!-- <div class="col-sm-4">
+                <!-- contact -->
+                <!-- <div class="col-sm-4">
 					<div class="contact">
 						<h3>Email</h3>
 						<a href="#">event@support.com</a>
 					</div>
 				</div> -->
-				<!-- /contact -->
+                <!-- /contact -->
 
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
 
-		<!-- Map -->
-		<div id="map"></div>
-		<!-- /Map -->
-	</div>
-	<!-- /Contact -->
+        <!-- Map -->
+        <div id="map"></div>
+        <!-- /Map -->
+    </div>
+    <!-- /Contact -->
 
-	<!-- Footer -->
-	<footer id="footer">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-			<div class="row">
+    <!-- Footer -->
+    <footer id="footer">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
 
-				<!-- footer logo -->
-				<div class="col-md-4 col-md-push-4">
-					<div class="footer-brand">
-						<a class="logo" href="index.html">
+                <!-- footer logo -->
+                <div class="col-md-4 col-md-push-4">
+                    <div class="footer-brand">
+                        <a class="logo" href="index.html">
 							<img src="./img/logo_Original_png.png" alt="ServerSide_SP" title="ServerSide_SP" class="logo-img" style="max-height: 130px;">
 						</a>
-					</div>
-				</div>
-				<!-- /footer logo -->
+                    </div>
+                </div>
+                <!-- /footer logo -->
 
-				<!-- contact social -->
-				<div class="col-md-4 col-md-push-4">
-					<div class="contact-social">
-						<!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                <!-- contact social -->
+                <div class="col-md-4 col-md-push-4">
+                    <div class="contact-social">
+                        <!-- <a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-google-plus"></i></a>
 						<a href="#"><i class="fa fa-instagram"></i></a>
 						<a href="#"><i class="fa fa-pinterest"></i></a>
 						<a href="#"><i class="fa fa-linkedin"></i></a> -->
-					</div>
-				</div>
-				<!-- /contact social -->
+                    </div>
+                </div>
+                <!-- /contact social -->
 
-				<!-- copyright -->
-				<div class="col-md-4 col-md-pull-8">
-					<span class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <!-- copyright -->
+                <div class="col-md-4 col-md-pull-8">
+                    <span class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
-				</div>
-				<!-- /copyright -->
+                </div>
+                <!-- /copyright -->
 
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</footer>
-	<!-- /Footer -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </footer>
+    <!-- /Footer -->
 
-	<!-- jQuery Plugins -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDS7bJHw-dK2dtQryPTwBqxrLo43a-xGn0"></script>
-	<script src="js/google-map.js"></script>
-	<script src="js/jquery.countTo.js"></script>
-	<script src="js/main.js"></script>
+    <!-- jQuery Plugins -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDS7bJHw-dK2dtQryPTwBqxrLo43a-xGn0"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
